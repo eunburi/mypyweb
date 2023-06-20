@@ -22,7 +22,7 @@ def detail(request, question_id):
 
 #질문등록
 def question_create(request):
-    if request.method == "POST":
+    if request.method == "POST": #소문자 post 일경우 > 등록안됨
         form = QuestionForm(request.POST) # 입력된 데이터가 있는 폼
         if form.is_valid(): # 폼이 유효성 검사를 통과했다면
             question = form.save(commit=False) #가짜저장
