@@ -1,0 +1,32 @@
+2023.0620(화)!!
+열심히하자꾸!!!
+
+* 질문/답변 등록폼 - 사용자
+* 부트스트랩 - 레이아웃 템플릿
+* 회원관리
+
+* 외우자 question.answer_set.all() :  질문을 통한 답변전체
+question.answer_set.getl(id=?) : 답변1개
+
+
+1.질문목록에 메뉴를 만들자~
+질문등록 ->질문등록 폼
+board/b
+board/urls > path(question/creat/만들어줌 >
+
+-----------------------------
+교안3장
+
+* 레이아웃 템플릿(상속) - base.html
+부트스트랩은 스태틱(static)!
+static > board > css > bootstrap.css
+5.13ver다운
+*부트스트랩은 무조건 class
+
+* 폼 오류처리(유효성 검사)
+
+* 회원관리 app - common
+- 뷰 만들지 않음!
+==========================
+깃허브
+Stai

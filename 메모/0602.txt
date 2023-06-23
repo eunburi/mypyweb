@@ -1,0 +1,21 @@
+2023.06.02 (금요일!)
+
+- 주소록,회원관리,게시판 등등
+CRUD - Create Read Update Delete
+로그인 - 세션관리
+
+자료형(vo) - 클래스
+자료관리(DAO) - 삽입,검색,수정,삭제
+-메모리
+-DB
+
+adress
+(1,2 모두사용)
+1. 액션태그
+2.import 클래스
+
+DAO scope=""
+request -  어떤 페이지에서 다음페이지 저장
+session - 저장(세션이 발급)
+application - 전체 프로그램 영역
+

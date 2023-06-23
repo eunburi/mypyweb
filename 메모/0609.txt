@@ -1,0 +1,18 @@
+2023.06.09 (금요일!)
+
+controller
+Maincontroller
+
+-다중조건문
+<c:choose>
+	<c:when>
+	<c:when>
+	<c:otherwise>
+</c:choose>
+
+
+[날짜와숫자표기]
+formatDate
+
+
+WriterTest

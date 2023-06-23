@@ -1,0 +1,41 @@
+23.05.31
+
+포함관계
+교안 자바 11장 32페이지 다이아몬드 화살표 : 포함관계!
+
+jsp 태그 - 액션태그<jsp:useBean>
+내장객체 - out,request.response
+
+*한글인코딩설정 (넘겨받을때
+request.setCharacterEncoding("utf-8");
+
+ *컨텐츠 유형 (줄때)
+response.setContentType(" text/html;charest=utf-8")
+
+*html.json,xml
+
+
+# 4장 서블릿(servlet) - > Jsp
+ -한글 인코딩 : response.setContentType("text/html; charset=utf-8");
+loginForm.jsp
+
+ [ 서블릿 생성 ] 
+1. 애너테이션(@)
+2. web.xml(환결성정파일)
+
+ <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+=================
+파이썬
+=================
+
+파이참은 pip설치해야함
+주피터노트북은 설치되어있음
+pyocr - 새파일 생성 cvtest.py
+* 터미널>>>
+pip install opencv-python - >주피터도 설치(이미되어어있음)
+

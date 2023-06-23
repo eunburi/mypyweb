@@ -1,0 +1,30 @@
+
+06.13 (화)
+-글쓰기 페이지에 세션 적용하기
+-로그인이 필요합니다.
+
+
+* pattern오류나는이유
+
+/boardView.do?bnum = ""
+/board/boardView.jsp
+ boardDelet.do?bnum="${board.bnum}"
+
+로그인한 사람만 삭제버튼 보이게
+
+
+1.톰캣 서버 아이디 비번 등록
+username/password
+login.jsp
+
+loginFailed
+
+/deleteMember.do?memberId=${}
+
+* 문자열 - string 읽기
+기반 스트림 - FileReader - 문자형
+보조스트림 - 
+
+BufferedReaderTest
+BufferdStreamTest
+DataOutputStreamTest

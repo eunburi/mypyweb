@@ -1,0 +1,45 @@
+
+06.16 (금)
+
+MTV - Model Templates View
+
+db에서 전체데이터 가져오는거 [전체 데이터 조회] : 
+Question.objects.all()
+
+* 외워두쎄용
+choice_set.all
+
+[오류코드]
+-404 : 페이지가없다
+-403 ; 권한없음
+-200 : 정상
+
+-다음주
+ocr페이지
+질문/답변게시판,회원
+
+자바/파이썬
+자바스크립트 - 유효성검사,
+제이쿼리 - ajax(비동기처리기법***중요) - 중복 아이디
+링크페이지 - 새 페이지(로딩시간 - 동기화)
+한 페이지 내부에서 내용만 변경되는것!(비동기화 - Ajax)
+
+jquery1.jsp
+
+제이쿼리 cdn 검색 - > 3.x 3.70 >uncompresse > copy > 헤드밑에 복붙
+제이쿼리에서 색깔을 바꿔봅시다 > $(document).ready(function(){
+		//alert("jquery testing...!");
+		$('h2').css('color','blue');
+	})
+
+
+- >제이쿼리 value함수
+
+[오라클]
+case when
+decode()
+
+1. 칼럼 fileupload varchar2(50)
+2. Board 필드 등록
+3. BoardDAO - addBoard()
+

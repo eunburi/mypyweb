@@ -1,0 +1,43 @@
+index페이지
+ : config - url에서 만듬
+
+mypyweb > pyweb(폴더) > board
+app - index, config, board(질문답변) , common (회원)
+회원관리 - 
+게시판관리 - 페이지처리, 댓글
+
+*프로젝트생성 (프로젝트 만드는 명령어★★★★)
+ : django-admin startproject config .
+
+*앱 생성★★★★
+ : python manage.py startapp board
+
+*가상화가는법
+cd c:/my
+cd script
+
+*cmd로 가상화하고 파이참
+설정 세팅스 > prjoect pyweab python interpreter > add interpreter > existing 
+>settings 
+>
+
+-->게시판관리(board)
+1. 질문/답변 목록 - question_list
+2.상세페이지
+3.질문/답변 등록 폼
+
+templates폴더 > board > index.html
+
+board > urls.py, question_list
+board > models.py
+Question(subject,content,create_date), Answer
+
+python manage.py makemigrations
+-----------------------------------
+shell - 질문
+관리자 페이지
+질문 등록 폼
+
+퀘스천 추가
+파이썬 웹 개발패턴인 MTV가 무엇인가요?
+파이썬 엡개발 패턴인 MTV가 무엇인지 알고 싶어요

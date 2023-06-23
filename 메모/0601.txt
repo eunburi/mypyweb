@@ -1,0 +1,41 @@
+2023.06.01 (목)
+
+한글로 입력시 주소 : http://localhost:8080/ch03/request/process.jsp?uname=%EB%A7%B9%EA%B5%AC
+영어 http://localhost:8080/ch03/request/process.jsp?uname=today
+
+
+*HTTP 헤더 정보 (request > header1.jsp)
+
+* 쿼리스트링 (sayHello)
+-cnt = null 이라서 처음에 서버 접속 시 오류남 (500)
+- http://localhost:8080/ch03/request/sayHello.jsp?cnt=3 이렇게해야 나옴
+
+* 포워딩(forwarding) - 페이지 이동
+서블릭 - > Jsp
+서블릿 - > 서블릿
+- redirect
+- dispatch
+
+=======================
+
+* 세션 유효시간 * 
+server > web.sml
+
+--------------------
+request.getParameter()
+request.getParameterValues() - 여러개 처리
+
+response.setIntheader("Refresh",5); * 5초 후에 시간 새로고침 (ch01-web1)
+==============================================
+[JAVA] 자바
+* import안한고 쓰는거 ///
+java lang에 있는것들
+OBJECT - 조상(루트클래스)
+toString( )
+equals( ) 
+hashCod( )
+clone( )
+---------------
+스택과 큐
+stack : 쌓이는
+Queue : 줄을 섰으면 1번부터 나가는거

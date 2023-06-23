@@ -1,0 +1,51 @@
+
+06.13 (수)
+
+<파일입출력>-스트림
+기반스트림
+보조스트림 - 단독 쓸 수 없고, 기반스트림을 생성자로 사용
+
+serialization
+직렬화 / 역직렬화(복원)
+class Board implements Seriazable{}
+
+------------------------------------------------------------------
+
+sequence - b_seq
+cach(기억) - 기본(20)행
+
+memberEventdeleteMember(memberId)
+
+- 작품발표회 -
+1. 7/3(월)
+2. 8/17
+3. 9/18
+4. 수료식 9/20
+
+-웹프로젝트 - 프레임워크(Django-장고)
+파이참, vs code
+
+작업폴더 - mypyweb
+가상화(virtualization) 폴더 - myvenv1, myvenv2
+django 3
+django 4
+
+
+[장고설치]
+1. 가상화폴더 : myvenv -> 가상화 모듈(venv) 설치 > django 설치
+2. 작업폴더(workspace) : mypyweb > polls
+
+프로젝트 : django-admin startproject config .
+app(앱):python manage.py startapp poll
+app
+
+python manage.py createsuperuser
+사용자이름 : admin
+이메일주소 : 
+password
+12345
+
+python manage.py runserver
+<장고 로그인 서버>!!
+*admin2
+12345

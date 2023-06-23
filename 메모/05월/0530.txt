@@ -1,0 +1,45 @@
+05.30(화요일)
+
+*인터페이스 
+: 모든 메서드는 추상메서드로 선언
+: 실체메서드도 사용 가능 (default 붙임)
+
+
+* 응답코드(response)
+500 : 코드에러(예외)
+404 : 파일이 없는 경우
+200 ; 정상
+
+*메인페이지를 나눔
+
+* &copy : C
+
+**디렉티브태그 - <%@ %>
+**액션태그 - <jsp:forward .. ></jsp:forward> - xml방식
+: 어떤 한페이지에서 다른 페이지로 이동
+( location.href="header.jsp" )
+sendRedirect( )
+ -  request, response,forward
+ - xm 방식 : 열기와 닫기를 반드시 명시
+<jsp:param name=" ">
+
+1) 디렉티브태그 : <%@p
+2) XML 
+<jsp:include / >
+
+<jsp:useBean id = " " class = " "/>
+<jsp:setProperty / >
+
+Bean = VO + DAO
+VO - 클래스(자료형)
+DAO - 입,출력,검색,아이디체크 함수제어
+
+[ 구현방벙법 ]
+1. jsp액션태그
+2. 지시자태그 (import) new 사용 
+
+
+[ Banking ] 
+1. 계좌검색
+2. 계좌생성
+3. 계좌목록

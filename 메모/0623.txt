@@ -1,0 +1,40 @@
+2023.06.22 (목요일)
+* dotoli1234
+m123456!
+
+
+- > detail.html 다시보기 답변삭제
+
+게시판관리
+삭제,수정
+수정일 - 
+
+1makemigrations > migrate
+python manage.py migrations
+
+model 콤마안됨
+url은 콤마ok
+==========================================
+프로젝트이름 - blogs 
+app - blog
+(파일업로드,카테고리,가전,생활용품)
+
+1.CMD 열기
+cd c:/myvenv
+cd Scripts
+activate
+>가상으로 들어감
+static > blog > css,js,images
+--------------
+12:32 db만들기
+
+postlist랑 blog/url다시보기
+-------------
+settting  > url >  model
+media 
+
+이미지파일
+일반파일
+
+등록폼
+forms.py 생성 - > PostForm(model 참조)

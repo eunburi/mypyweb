@@ -1,0 +1,76 @@
+
+06.15 (목)
+
+DB-SQLITE3(파일) - > DB브라우저
+데이터베이스열기 - > mypyweb - polls - db로 sqlite에서 db열기
+
+이 명령어를 쳐야
+[python manage.py migrate (db이사) - > db테이블이 생김
+
+python mange.py createsuperuser
+
+
+*cmd에서 가상화 연습먼저
+
+
+로그인하고 사용자들 클릭 
+
+path('poll/',vies.index),
+
+polls > django-admin startproject config . (선생님이랑 같이 만듬)
+
+config > urls.py
+poll > urls.py
+
+☆ 뷰 ☆
+[JAVA]
+ : MVC - Model(db) View(jsp - 화면) Controller(servlet)
+
+[파이썬]
+ : MTV - Model Templets View(Controller - 제어)
+
+mkdr = md
+
+{{	}} : 출력
+{% %} - 명령문
+
+-DB체계-
+RDBMS(관계형 데이터베이스)
+
+ORM(Object Relational Mapping)  - 객체관계형 데이터베이스
+엔티티(ENTITY) - 테이블 =>class로 만듬
+ODBMS(객체형 데이터베이스 : 구현어려움)  - 실패
+
+--db를 실행하는 명령어
+모델(model)을 생성,수정,삭제하는 명령어
+1) python manage.py makemigrations 
+2) python manage.py migrate
+
+장고 쉘
+python manage.py shell
+제목,발행일 - > 객체생성
+
+쉘이란? 입출력할수잇는것
+============JSP=====
+
+ - 유효성검사
+ - 정규표현식
+
+match(), search()함수
+/Ain/i : 대소문자 허용
+/ain/g : 전체를 다 찾음 (global )
+
+***
+/문자/i - 대소문자 허용(i-ignoreCase)
+/문자/g - 전체영역에서 일치하는 문자 전부 찾음 (g-global)
+
+search():찾은 문자열의 위치 반환
+
+regex01
+주제하나씩 생각해오기!!
+기록홈페이지 회원관리기능있고
+달력같이 테이블있고 하루일기쓰는거 질문넣고 답변하기
+
+
+회원가입 후 자동로그인
+index페이지로이동 /자동로그인 구현

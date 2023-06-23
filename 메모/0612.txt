@@ -1,0 +1,20 @@
+
+06.12 (월)
+FileCopy1
+[java]
+* start = System.currentTimeMillis()  - 시간재는 함수
+
+로그인 / 로그아웃(세션발급)
+session.setAttribute()
+서블릿(자바) - HttpServlet
+
+
+memberView
+
+#4F3789
+8977AD
+E0218A
+ff69b4
+회원목록을 클릭하면 로그인이 필요합니다. alert창 띄워보기
+페이지 이동-loginForm.jsp
+

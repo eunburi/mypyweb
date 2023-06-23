@@ -1,0 +1,27 @@
+2023.06.07 (수요일!)
+
+Java Server Page - 서버측(서버사이드) 언어
+JSP ASP PHP
+
+프레임워크
+스프링(servlet(제어),JSP(화면),장고(파이썬),리엑트(자바스크립트)
+닷넷프레임워크(ASP,C#)
+
+JSP - jsp태그,세션과 쿠키, el(jstl)언어 - 템플릿언어
+
+isNaN(문자) - 숫자가 아니면
+
+*쿠키삭제 - 유효기간(0)
+setMaxAge(0)
+
+
+*파일업로드
+<form action="" method=""
+	enctype="multipart/form-data">
+
+
+[ String 관련 문자열 함수 ] 
+문자객체.charAt(인덱스)
+문자객체.indexOf(인덱스)
+
+StringIndexOf

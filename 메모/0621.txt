@@ -1,0 +1,38 @@
+2023.0620 (수요일)!!
+어떤 앱이 만들어지든간에
+config > urls 패턴으로 봄
+
+[MTV방식]
+* FBV(Function Based View) : 함수형 view - 
+* CBV(Class Based View) - 클래스형 view
+-----------------------------
+
+*로그인했을때 [로그아웃]으로 변경되어야 할때~
+-로그인 -> 로그아웃 
+user.is.authenticated를 사용하면됨!
+얘는 어디있는데? - > 
+장고다큐먼트 auth 검색> django.contrib.auth > User model¶ > Attributes
+-------------------------------------
+
+[회원가입]-----------*---------*-------------*
+signup/ (url)
+def signup(request): (view)
+common/signup.html (템플릿(html))
+-----------*---------*-------------*
+row
+	12Grid - col 6 - > (2등분한거임)
+	col-3 - > (4등분)
+------------------
+유효성검사를 html로 만들자
+form_errors.html
+-------------------
+글쓴이
+author(외래키) - User
+
+user,Question,Answer
+-----------------------
+
+404 페이지 처리
+500 오류 - 코드
+
+question = get_object_or_404(Question, pk=question_id)

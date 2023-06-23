@@ -1,0 +1,37 @@
+2023.06.08 (목요일!)
+
+
+
+이해안가는부분 uri - process02_e;
+
+-문자열 더하기 - concat()
+String - 메모리 주소변경
+* StringBuilder - 메모리 주소 변경안됨
+* 해시코드 - 메모리의주소 
+
+productList
+자료형을 비교하자면 클래스가 더 큼
+
+[JSP]
+<% %>
+<%= %>
+
+EL언어 - ${empty sessionld }
+and - &&
+or - ||
+
+Member - Bean 생성
+<jsp:useBean>
+<jsp:setProperty>
+
+* 모델1방식 : jsp : MVC 
+* 모델2방식 : jsp(MV) + servlet(Controller)
+
+Controller 만들기 (서블릿)
+1. 어노테이션 방식 (@WebServlet("/mvc/mvc01")
+2. web.xml설정
+
+MVCTest2
+Product
+
+ch5 > product > productList 상품선택결과!!
