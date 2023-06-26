@@ -1,0 +1,22 @@
+2023.06.26 (월요일)
+
+sky123
+m12456!
+
+[파일 첨부]
+1) model - FileField()
+2) makemigrations, migrate
+
+
+<fontawesome>
+ID : finestar23@naver.com
+PW : pop05020502!@
+
+코드 먼저 베이스에 넣어주고
+그다음파일 코드 디테일에 가서 다운로드 뒤에 i class넣어주면됨
+------------------------------------------------------------------
+pyweb
+pyblog
+pyshop
+team-project
+
