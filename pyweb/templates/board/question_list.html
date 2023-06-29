@@ -3,6 +3,24 @@
 {% block content %}
 <div class="container my-3" xmlns="http://www.w3.org/1999/html">
     <section id ="question_list">
+        <!-- 검색 입력상자-->
+        <div class="col-8"></div>
+        <div class="col-4 d-flex justify-content-end"></div>
+        <div class = "row mb-2 justify-content-end">
+            <div class="col-4 input-group">
+                <input type="text" class="kw form-control"
+                    value="{{ kw }}">
+            </div>
+
+            <div class="col-2 input-group-append mx-1">
+                <button type="button" id="btn-search"
+                        class="btn btn-outlne-secondary">찾기</button>
+            </div>
+        </div>
+
+
+
+        <!-- 질문/답변 목록 -->
         <table class="table">
             <thead>
                 <tr class="table-Primary">
@@ -84,14 +102,32 @@
             {% endif %}
 
         </ul>
-
-
-
-
+        <!--페이지 처리 끝-->
+        <!--검색 폼 만들기 -->
 
     <!--질문등록 메뉴-->
     <a href="{% url 'board:question_create' %}"
         class="btn btn-primary">질문 등록</a>
+    <!--검색폼 만들기-->
+    <form action="" method="get" id="searchForm">
+        {% csrf_token %}
+        <input type="hidden" id="kw" name="kw" value="{{ kw }}">
+    </form>
+
     </section>
 </div>
+{% endblock %}
+{% block script %}
+<script>
+    $(function(){
+        <!--검색처리-->
+        $('#btn_search').click(function(){
+            $('#kw').val($('.kw').val()); <!--입력 폼에서 입력된 키워드를 hidden 타입으로-->
+            $('#searchForm').submit();  <!--폼을전송함 -> view쪽으로 -->
+
+        });
+    });
+
+</script>
+
 {% endblock %}
